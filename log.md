@@ -4,6 +4,15 @@
 
 **Today's Progress**: First day of 100 days of code! Finally got back to working on my cue_card app, which was suposed to be finished long ago... Fixed up some old ReactJS code.
 
-**Thoughts:** I'm new to webdev. I was going to build the cue_card in Django only. But I want to learn about front end using ReactJS too. So I'll be using that to build the front end and Django just for a REST api for now. I will (hopefully) also be doing the ReactJS tutorial at the same time!
+**Thoughts**: I'm new to webdev. I was going to build the cue_card in Django only. But I want to learn about front end using ReactJS too. So I'll be using that to build the front end and Django just for a REST api for now. I will (hopefully) also be doing the ReactJS tutorial at the same time!
 
 **Link to work:** [Cue_card App](https://github.com/domingohui/cue_card)
+
+
+### Day 1: January 11, 2017
+
+**Today's Progress**: I decided not to use React to render the index page, but will use it to present actual cards. Will keep reading the ReactJS tutorial. I also fixed up the serializer to make it easier to communicate with DB.
+
+**Thoughts**: Eventually, I wnat to be able to send data (how long the user has spent reading the card, how many times it's been read, etc) from the present_card page to the server. Don't know if this is doable using only JS without reloaidng or even sending a POST response. So the app doesn't have to reload the page hopefully. 
+
+**What's next**: Will start working on building present_card page wiht React.
