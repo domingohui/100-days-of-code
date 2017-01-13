@@ -16,3 +16,10 @@
 **Thoughts**: Eventually, I wnat to be able to send data (how long the user has spent reading the card, how many times it's been read, etc) from the present_card page to the server. Don't know if this is doable using only JS without reloaidng or even sending a POST response. So the app doesn't have to reload the page hopefully. 
 
 **What's next**: Will start working on building present_card page wiht React.
+
+
+### Day 2: January 12, 2017
+
+**Today's Progress**: Wrote a minimal present_card page with ReactJS. Finishing the ReactJS tutorial.
+
+**Thoughts**: It seems that it's fairly trivial to render data to a ReactJS from the server. But it'd be interesting to see how to push/post data back to the server.
