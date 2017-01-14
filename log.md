@@ -23,3 +23,10 @@
 **Today's Progress**: Wrote a minimal present_card page with ReactJS. Finishing the ReactJS tutorial.
 
 **Thoughts**: It seems that it's fairly trivial to render data to a ReactJS from the server. But it'd be interesting to see how to push/post data back to the server.
+
+
+## Day 3: January 13, 2017
+
+**Totay's Progress**: Read up more about React component rendering. Also figured out how to pass data from a Django server to.
+
+**Thoughts**: By passing data to a global variable through a Django template is probably not the best idea, but will experiment it for now :P
