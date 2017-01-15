@@ -30,3 +30,10 @@
 **Totay's Progress**: Read up more about React component rendering. Also figured out how to pass data from a Django server to.
 
 **Thoughts**: By passing data to a global variable through a Django template is probably not the best idea, but will experiment it for now :P
+
+
+##Day 4: January 14, 2017
+
+**Today's Progress**: Halfway through implementing showing a card's data. ReactJS is interesting! Still playing around with state and props.
+
+**Thoughts**: Seems like the only side effect of passing data through a global at server rendering is polluting the global scope. Will read up more about state and props.
