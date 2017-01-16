@@ -37,3 +37,12 @@
 **Today's Progress**: Halfway through implementing showing a card's data. ReactJS is interesting! Still playing around with state and props.
 
 **Thoughts**: Seems like the only side effect of passing data through a global at server rendering is polluting the global scope. Will read up more about state and props.
+
+
+##Day 5: January 15, 2017
+
+**Today's Progress**: State, props and lifecycle are much clear now! I removed a few unnecessary state properties. I also started working on gathering analytics.
+
+**Thoughts**: React's state and props make a lot of sense now. Also, apparently, the JSON data rendered and passed to HTML from Django is just injected into the script. It's kinda ugly tbh. 
+
+**What's next**: Will find a better way to pass data from Django. Also need to start working on the CSS soon!!
