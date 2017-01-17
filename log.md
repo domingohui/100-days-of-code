@@ -46,3 +46,12 @@
 **Thoughts**: React's state and props make a lot of sense now. Also, apparently, the JSON data rendered and passed to HTML from Django is just injected into the script. It's kinda ugly tbh. 
 
 **What's next**: Will find a better way to pass data from Django. Also need to start working on the CSS soon!!
+
+
+##Day 6: January 16, 2017
+
+**Today's Progress**: Picked up some CSS for the first time!
+
+**Thoughts**: TIL it's surprisingly easy to implement animations with CSS! It's a bit inconvenient to toggle CSS classes in React, unlike other libraries like jQuery. But it's still pretty interesting and efficient to render components with different properties that depend on each other!
+
+**What's next**: Need to keep working on displaying a card properly with nice CSS.
