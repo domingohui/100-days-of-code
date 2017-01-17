@@ -25,21 +25,21 @@
 **Thoughts**: It seems that it's fairly trivial to render data to a ReactJS from the server. But it'd be interesting to see how to push/post data back to the server.
 
 
-## Day 3: January 13, 2017
+### Day 3: January 13, 2017
 
 **Totay's Progress**: Read up more about React component rendering. Also figured out how to pass data from a Django server to.
 
 **Thoughts**: By passing data to a global variable through a Django template is probably not the best idea, but will experiment it for now :P
 
 
-##Day 4: January 14, 2017
+### Day 4: January 14, 2017
 
 **Today's Progress**: Halfway through implementing showing a card's data. ReactJS is interesting! Still playing around with state and props.
 
 **Thoughts**: Seems like the only side effect of passing data through a global at server rendering is polluting the global scope. Will read up more about state and props.
 
 
-##Day 5: January 15, 2017
+### Day 5: January 15, 2017
 
 **Today's Progress**: State, props and lifecycle are much clear now! I removed a few unnecessary state properties. I also started working on gathering analytics.
 
@@ -48,7 +48,7 @@
 **What's next**: Will find a better way to pass data from Django. Also need to start working on the CSS soon!!
 
 
-##Day 6: January 16, 2017
+### Day 6: January 16, 2017
 
 **Today's Progress**: Picked up some CSS for the first time!
 
