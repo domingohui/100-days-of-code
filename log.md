@@ -55,3 +55,8 @@
 **Thoughts**: TIL it's surprisingly easy to implement animations with CSS! It's a bit inconvenient to toggle CSS classes in React, unlike other libraries like jQuery. But it's still pretty interesting and efficient to render components with different properties that depend on each other!
 
 **What's next**: Need to keep working on displaying a card properly with nice CSS.
+
+
+## Day 7: January 17, 2017
+
+**Today's Progress**: Instead of working on the app, I was setting up yarn and the dependencies of the app. Didn't get to finish tho. Will keep working on getting Babel compiler running properly tomorrow!
