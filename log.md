@@ -60,3 +60,8 @@
 ## Day 7: January 17, 2017
 
 **Today's Progress**: Instead of working on the app, I was setting up yarn and the dependencies of the app. Didn't get to finish tho. Will keep working on getting Babel compiler running properly tomorrow!
+
+
+## Day 8: January 18, 2017
+
+**Today's Progress**: Had to do something in the work repo... Sorry!
