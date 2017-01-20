@@ -65,3 +65,8 @@
 ## Day 8: January 18, 2017
 
 **Today's Progress**: Had to do something in the work repo... Sorry!
+
+
+## Day 9: January 19, 2017
+
+Need to rest up for a hackathon tomorrow. Will try harder. 
