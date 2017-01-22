@@ -70,3 +70,12 @@
 ## Day 9: January 19, 2017
 
 Need to rest up for a hackathon tomorrow. Will try harder. 
+
+
+## Day 10~12: January 20 ~ 22, 2017
+
+We were building a note editor that handles all of the fancy foramtting (bullet lists, highlighting, headers, generating headers based on contents, etc). But we didn't have enough time to finish it :/ Hopefully, over the next week, I can finish it and make it better over time.
+
+ReactJS, node JS.
+
+Also learned how to use Webpack to set up all modules locally including Babel. It's such a steep learning curve!! But worth.
