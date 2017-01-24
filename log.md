@@ -79,3 +79,8 @@ We were building a note editor that handles all of the fancy foramtting (bullet 
 ReactJS, node JS.
 
 Also learned how to use Webpack to set up all modules locally including Babel. It's such a steep learning curve!! But worth.
+
+
+##Day 13: January 23, 2017
+
+Set up webpack today! Took a bit long because I was reading the doc. But it was fun!
