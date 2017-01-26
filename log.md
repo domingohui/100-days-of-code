@@ -84,3 +84,10 @@ Also learned how to use Webpack to set up all modules locally including Babel. I
 ##Day 13: January 23, 2017
 
 Set up webpack today! Took a bit long because I was reading the doc. But it was fun!
+
+
+##Day 14: January 25, 2017
+
+**Today's Progress**: Webpack with React and Babel is finally up and running. It took me a while to get the hang of it. I can see how useful this is in a large scale project. There should be a webpack setup somewhere out there!
+
+**What's next**: As part of learning about backend, I thought about ways to fectch data from server to the client. It seems like two round-trips (fetch data after loading initial page) aren't that bad most of the time. I will implement that.
