@@ -91,3 +91,10 @@ Set up webpack today! Took a bit long because I was reading the doc. But it was 
 **Today's Progress**: Webpack with React and Babel is finally up and running. It took me a while to get the hang of it. I can see how useful this is in a large scale project. There should be a webpack setup somewhere out there!
 
 **What's next**: As part of learning about backend, I thought about ways to fectch data from server to the client. It seems like two round-trips (fetch data after loading initial page) aren't that bad most of the time. I will implement that.
+
+
+##Day 15: January 26, 2017
+
+**Today's Progress**: Wasn't too productive today. Too tired from work :/ But I did some jquery to get card data from the server.
+
+**What's next**: I'm planning to use Materialize to make things pretty!
