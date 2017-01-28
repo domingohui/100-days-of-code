@@ -98,3 +98,10 @@ Set up webpack today! Took a bit long because I was reading the doc. But it was 
 **Today's Progress**: Wasn't too productive today. Too tired from work :/ But I did some jquery to get card data from the server.
 
 **What's next**: I'm planning to use Materialize to make things pretty!
+
+
+##Day 16: January 27, 2017
+
+**Today's Progress**: Implemented the get cards data function with jQuery.
+
+**Thoughts**: Tons of frameworks out there. Web dev is quite convenient and light weight!
