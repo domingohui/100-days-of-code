@@ -110,3 +110,10 @@ Set up webpack today! Took a bit long because I was reading the doc. But it was 
 ##Day 17: January 29, 2017
 
 **Today's Progress**: Learned some jQuery and started looking into Materialize CSS. It looks fancy!
+
+
+##Day 18: January 30, 2017
+
+It was pretty fun to set up Materialize! Also played around with some css components.
+
+**Thoughts**: webpack made it very easy to load up Materialize CSS. A steep learning curve still, but it just makes things so much easier after the inital setup!
