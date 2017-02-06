@@ -117,3 +117,16 @@ Set up webpack today! Took a bit long because I was reading the doc. But it was 
 It was pretty fun to set up Materialize! Also played around with some css components.
 
 **Thoughts**: webpack made it very easy to load up Materialize CSS. A steep learning curve still, but it just makes things so much easier after the inital setup!
+
+
+##Day 19~25: February 5, 2017
+
+I've been writing a [Redux app](https://github.com/domingohui/frontend-challenge-starter) as part of applying to be an organizer of Hack the North! It was my first time trying out Redux with React! It was a lot of fun. I definitely still have tons to learn. I'm also very happy to be able to setup webpack to use Materialize, React, custome CSS, and bunch of other things! webpack doesn't seem to work very well with Sass. I hope to get a chance to look into that!
+I was also excited about using the isomorphic fetch to do some async with the thunk middleware!
+
+**Thought**: I find debugging in Redux much easier than in just React. With Redux, everything flows in one direction while all of the data stays in one place. I feel that React definitely enforces the pardigm of unidirectional flow of data, but states (of each component) are still kinda scattered within and between each component. Not having a huge state tree could lead to better performance, but a tradeoff is that bugs are harder to find. 
+In Redux, components (aka the view? the presentational components) dispatch actions which get passed to reducers, along with the current state (aka the model?). Reducers interpret the actions and the state and then create a new copy of the updated state. Components get rerendered if necessary, and actions are dispatched again. 
+One of the things that I'm still thinking about Redux is its efficiency and performance. It looks like reducers make copies of the state everytime an action is dispatched even though, after all, unchanged segments of the state are just passed to the new state as a reference. But to perform a search, for example, it would still need to iterate every single entry even though some of them are not shown yet. I haven't been able to find a way to efficiently (re)render chunks of data. Maybe that's one tradeoff of using something functional like Redux. I haven't tried React's ListView, but it could be a way to more efficiently display data? I'm curious. A normalized state, as suggested in the Redux doc, also makes a lot of sense. 
+I'm not too sure about this because I haven't really encountered this problem so far. If a slice of the state is dependent on one or more other slices, would it be a bit messy to [pass them around](https://github.com/reactjs/redux/issues/749)? I guess it's always better to set up the state so that each part can be "computed from lesser state" if necessary. The only downside is to write more reducers and/or actions to correspond each segment of the lesser state. 
+
+**What's next**: Experiment with Listview/Scrollview to see if/how much they help in a sizable Redux front end. Also it's time to explore different kinds of starter kit out there. I also wonder how others set up their boilerplates. 
