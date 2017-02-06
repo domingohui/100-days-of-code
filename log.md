@@ -133,3 +133,5 @@ One of the things that I'm still thinking about Redux is its efficiency and perf
 I'm not too sure about this because I haven't really encountered this problem so far. If a slice of the state is dependent on one or more other slices, would it be a bit messy to [pass them around](https://github.com/reactjs/redux/issues/749)? I guess it's always better to set up the state so that each part can be "computed from lesser state" if necessary. The only downside is to write more reducers and/or actions to correspond each segment of the lesser state. 
 
 **What's next**: Experiment with Listview/Scrollview to see if/how much they help in a sizable Redux front end. Also it's time to explore different kinds of starter kit out there. I also wonder how others set up their boilerplates. 
+
+**EDIT**: Apparently, [Reselect](https://github.com/reactjs/reselect) is built just for optimizing displaying the views! Will definitely check that out.
