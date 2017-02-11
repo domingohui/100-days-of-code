@@ -119,7 +119,7 @@ It was pretty fun to set up Materialize! Also played around with some css compon
 **Thoughts**: webpack made it very easy to load up Materialize CSS. A steep learning curve still, but it just makes things so much easier after the inital setup!
 
 
-##Day 19~25: February 5, 2017
+##Day 19~29: February 9, 2017
 
 I've been writing a [Redux app](https://github.com/domingohui/frontend-challenge-starter) as part of applying to be an organizer of Hack the North! It was my first time trying out Redux with React! It was a lot of fun. I definitely still have tons to learn. I'm also very happy to be able to setup webpack to use Materialize, React, custome CSS, and bunch of other things! webpack doesn't seem to work very well with Sass. I hope to get a chance to look into that!
 I was also excited about using the isomorphic fetch to do some async with the thunk middleware!
@@ -130,3 +130,10 @@ One of the things that I'm still thinking about Redux is its efficiency and perf
 I'm not too sure about this because I haven't really encountered this problem so far. If a slice of the state is dependent on one or more other slices, would it be a bit messy to [pass them around](https://github.com/reactjs/redux/issues/749)? I guess it's always better to set up the state so that each part can be "computed from lesser state" if necessary. The only downside is to write more reducers and/or actions to correspond each segment of the lesser state. 
 
 **What's next**: Experiment with Listview/Scrollview to see if/how much they help in a sizable Redux front end. Also it's time to explore different kinds of starter kit out there. I also wonder how others set up their boilerplates. 
+
+
+##Day 30: February 11, 2017
+
+**Progress**: Refactored and modulized some components in my cue card app.
+
+**What's next**: Add navigation and data persistence.
