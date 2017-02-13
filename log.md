@@ -142,3 +142,11 @@ I'm not too sure about this because I haven't really encountered this problem so
 **Progress**: Refactored and modulized some components in my cue card app.
 
 **What's next**: Add navigation and data persistence.
+
+
+##Day 31: February 12, 2017
+
+**Progress**: Added navigation buttons on the cue card app! 
+
+**What's next**: For data persistence on Django, I need a csrf token for security purposes. Will read more aobut it tomorrow! 
+**Thoughts**: On a side note... I was using [react-table](https://github.com/tannerlinsley/react-table) in my first Redux app a few days ago. But I was bumping into some issues with the component (It's super neat, convenient and fast otherwise!). I would consider my problem as an unusual edge case. But I opend an issue anyway, and it was fixed in a day! I'm starting to fall in love with the open source community. I can't wait to see what we are going to build in the future! 
