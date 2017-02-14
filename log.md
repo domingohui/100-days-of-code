@@ -150,3 +150,16 @@ I'm not too sure about this because I haven't really encountered this problem so
 
 **What's next**: For data persistence on Django, I need a csrf token for security purposes. Will read more aobut it tomorrow! 
 **Thoughts**: On a side note... I was using [react-table](https://github.com/tannerlinsley/react-table) in my first Redux app a few days ago. But I was bumping into some issues with the component (It's super neat, convenient and fast otherwise!). I would consider my problem as an unusual edge case. But I opend an issue anyway, and it was fixed in a day! I'm starting to fall in love with the open source community. I can't wait to see what we are going to build in the future! 
+
+
+##Day 32: February 13, 2017
+
+**Progress**: I read a bit on [CSRF(Cross-Site Request Forgery)](https://en.wikipedia.org/wiki/Cross-site_request_forgery). It's interesting to see how Django protects a site from CSRF attacks. I learned how to set up CSRF on client side and on Django side. For Django-rendered/managed templates, it's super easy - just add [{% csrf_token %}](https://docs.djangoproject.com/en/1.10/ref/csrf/#how-to-use-it) inside a form. 
+
+But for dynamically generated forms on a template (e.g. using ReactJS to manage views and input components), it's a bit tricky. Since Django inspects [HttpRequest.POST](https://docs.djangoproject.com/en/1.10/ref/request-response/#django.http.HttpRequest.POST) for a csrf cookie (that is generated when the template is rendered and sent to client) to make sure data from client side hasn't been compromised and thus become potentially malicious, the csrf token must be present there within the POST QueryDict. The catch is that only *FormData* gets sent to the request.POST QueryDict. 
+
+Using the {% csrf_token %} in the template is still a must. But, eventually, I use [js-cookie](https://github.com/js-cookie/js-cookie) to retrive the csrf cookie value on the client side (just ```Cookies.get('csrftoken')```). Then, I add it to a formdata along with other data that I want to send to the Django server. Also, when using the [fetch api](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch), it's important to set the ```credentials``` field to ```'same origin'```. It's a bit of digging to find out how Django the csrf middleware internally checks for the csrf token. But it makes sense to only look at FormData in a POST request since that's how Django templates are intended to set up anyway. 
+
+An alternative would be setting the csrf cookie value within the [headers](https://docs.djangoproject.com/en/1.10/ref/csrf/#ajax).
+
+**What's next**: Will implement data persistence fully soon.
