@@ -163,3 +163,8 @@ Using the {% csrf_token %} in the template is still a must. But, eventually, I u
 An alternative would be setting the csrf cookie value within the [headers](https://docs.djangoproject.com/en/1.10/ref/csrf/#ajax).
 
 **What's next**: Will implement data persistence fully soon.
+
+
+##Day 33: February 14, 2017
+
+**Progress**: Data persistence is working on my app! This is exciting. I will add more functionalities - adding and removing cards - soon. I'm also going to play around Google App Engine and hopefully get to test [trump2cash](https://github.com/maxbbraun/trump2cash) which is super cool :D
