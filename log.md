@@ -168,3 +168,12 @@ An alternative would be setting the csrf cookie value within the [headers](https
 ##Day 33: February 14, 2017
 
 **Progress**: Data persistence is working on my app! This is exciting. I will add more functionalities - adding and removing cards - soon. I'm also going to play around Google App Engine and hopefully get to test [trump2cash](https://github.com/maxbbraun/trump2cash) which is super cool :D
+
+
+##Day 34~36: February 16~18, 2017
+
+I was on a data science hackathon over the weekend. A lot of first time's for me! I learned R and used it to clean up data. I didn't know that there would be so many things to look out for. How to fill in/remove missing data, which features can we afford to drop, what specific columns mean, how to interpret missing data (also the invalid/unknown types). All without affecting accuracy at the end. 
+
+The next thing is to evaluate which methods to use to train a model. Without in-depth knowledge of the maths behind the methods, it's almost impossible to get good insights, except trying different methods. We had medical data on diabetes. We thought of using a simple linear regression on it, but it didn't work quite well. A deep neural network would be nice, except that [TensorFlow](https://github.com/tensorflow/tensorflow) wasn't able to work with categorical columns very well yet. We either had to apply [One Hot columns](https://en.wikipedia.org/wiki/One-hot) on the data (which would take some time) or just stick with continuous columns (continuous data type obviously wouldn't be as accurate for categories) (Otherwise, TF is a great tool - also no one hot columns needed for a DNN). At the end, we decided to try a random forest which yielded 88% accuracy for predicting how a diabetic patient will be discharged (leave) from the hospital. 
+
+Time to tackle some Kaggle challenges!
