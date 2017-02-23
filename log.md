@@ -181,4 +181,9 @@ Time to tackle some Kaggle challenges!
 
 ##Day 37: February 21, 2017
 
-**Progress**: I improved the webapp from the hackathon in terms of views and navigation. I also touched up on the R code I used to clean up the data. It assigns separate categories for missing/invalid data now. I don't know how keeping missing data will impact the accuracy of the model. I'm going to try exploring gradient boost and random forest tomorrow. And see how good the models will be.
+**Progress**: I improved the webapp from the hackathon in terms of views and navigation. I also touched up on the [R code](https://github.com/domingohui/deep_health/blob/master/training_model/clean_up_raw_data.R) that I used to clean up the data. It assigns separate categories for missing/invalid data now. I don't know how keeping missing data will impact the accuracy of the model. I'm going to try exploring gradient boost and random forest tomorrow. And see how good the models will be.
+
+
+##Day 38: February 22, 2017
+
+**Progress**: It took me a while to set up jupyter notebook within a virtualenv. I didn't realize jupyter should be installed within the virtualenv as well. The global jupyter doesn't care about virtualenv. It's time to dig into [scikit-learn's random forest](http://scikit-learn.org/stable/modules/ensemble.html#forest) now. 
