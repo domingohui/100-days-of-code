@@ -187,3 +187,10 @@ Time to tackle some Kaggle challenges!
 ##Day 38: February 22, 2017
 
 **Progress**: It took me a while to set up jupyter notebook within a virtualenv. I didn't realize jupyter should be installed within the virtualenv as well. The global jupyter doesn't care about virtualenv. It's time to dig into [scikit-learn's random forest](http://scikit-learn.org/stable/modules/ensemble.html#forest) now. 
+
+
+##Day 39: February 23, 2017
+
+**Progress**: Using scikit-learn, I built my first model on a huge dataset using random forest! It's impressive to see how the machine can just crunch those data so fast. I only had around 80% accuracy. I suspect the missing data category and the random diagnosis types contribute to the relatively high bias of the model. 
+
+**What's next**: I need to rethink how to treat the missing data, and group the minor categories in a better way, perhaps ignoring them would be best if they are not that frequent. 
