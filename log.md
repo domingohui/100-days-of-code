@@ -208,3 +208,10 @@ Time to tackle some Kaggle challenges!
 Oops, I haven't been updating the log for a while! But I've been working on my [personal site](https://domingohui.github.io) lately. It's pretty fun building it with [jekyll](https://jekyllrb.com/) using the [minima theme](https://github.com/jekyll/minima) (for now). I also added some of my thoughts and progress from a data science hackathon on the site, in jupyter notebooks. 
 
 I also improved the [deep health webapp](https://github.com/domingohui/deep_health/tree/master/app_doctor) a bit. It's time to work on the looks and its workflow :D Over the weekend, I really hope I can finanlly get a chance to dive into a D4D project - [internal displacement](https://github.com/Data4Democracy/internal-displacement) - it's a super cool project that combines data science with politics and the society. I really want to get involved in that. 
+
+
+##Day 46~48: March 3~5, 2017
+
+I stumbled upon the Google Foobar challenge while at work. I worked through the first two levels over the weekend. Feel free to follow my progress and submit better solutions and more questions [here](https://github.com/domingohui/google_foobar)!
+
+I'm also working on a [D4D project](https://github.com/Data4Democracy/internal-displacement/).
