@@ -215,3 +215,13 @@ I also improved the [deep health webapp](https://github.com/domingohui/deep_heal
 I stumbled upon the Google Foobar challenge while at work. I worked through the first two levels over the weekend. Feel free to follow my progress and submit better solutions and more questions [here](https://github.com/domingohui/google_foobar)!
 
 I'm also working on a [D4D project](https://github.com/Data4Democracy/internal-displacement/).
+
+##Day 49: March 6, 2017
+
+More foobar!
+
+##Day 50~51: March 7~8, 2017
+
+Can't believe I'm already halfway through the challenge! It seems that I'm getting used to coding a bit everyday. It's always nice to learn something new everyday. 
+I also started looking into the [D4D project](https://github.com/Data4Democracy/internal-displacement/). I'm also falling in love with the idea of open-source projects. Working with a team brings more diverse approaches and ideas to the project. It's also a great chance for me to get started with NLP. 
+
