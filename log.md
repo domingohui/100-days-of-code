@@ -225,3 +225,7 @@ More foobar!
 Can't believe I'm already halfway through the challenge! It seems that I'm getting used to coding a bit everyday. It's always nice to learn something new everyday. 
 I also started looking into the [D4D project](https://github.com/Data4Democracy/internal-displacement/). I'm also falling in love with the idea of open-source projects. Working with a team brings more diverse approaches and ideas to the project. It's also a great chance for me to get started with NLP. 
 
+
+##Day 52: March 9, 2017
+
+Cleaned up my D4D PR a bit. I also did another challenge in the Google foobar. TIL recursion is fun, intuitive and useful until there are thousands of stack frames. Optimization is possible, but much more easier to be done with an iterative approach. 
