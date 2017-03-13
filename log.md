@@ -229,3 +229,12 @@ I also started looking into the [D4D project](https://github.com/Data4Democracy/
 ##Day 52: March 9, 2017
 
 Cleaned up my D4D PR a bit. I also did another challenge in the Google foobar. TIL recursion is fun, intuitive and useful until there are thousands of stack frames. Optimization is possible, but much more easier to be done with an iterative approach. 
+
+
+##Day 53: March 11, 2017
+
+Tried running Docker today on an open source project. Docker is great since it provides a common environment for contributors to run the project. I find that issues are much more reproducible in a Docker environment. 
+
+Quick thoughts on open source projects:
+
+I haven't been working on open source projects for a long time. But so far, I really enjoy seeing commits, PRs coming from different members of the project everyday, while doing that myself at the same time. It's amazing that people dedicate their free time to work on a project over time. Knowing that I am part of a bigger team, even thought we don't see each other everyday, makes me more motivated to put in more efforts. While working alone, you know that people are less likely to see and use your code. But, in an open source project, documentation and code quality in general become very important. Others working on the project depend on the code I've written and need to understand what it does. The subtle but impactful extra responsibility that puts it on each contributor's shoulders is what makes open source code the best code. 
