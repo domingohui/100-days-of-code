@@ -238,3 +238,14 @@ Tried running Docker today on an open source project. Docker is great since it p
 Quick thoughts on open source projects:
 
 I haven't been working on open source projects for a long time. But so far, I really enjoy seeing commits, PRs coming from different members of the project everyday, while doing that myself at the same time. It's amazing that people dedicate their free time to work on a project over time. Knowing that I am part of a bigger team, even thought we don't see each other everyday, makes me more motivated to put in more efforts. While working alone, you know that people are less likely to see and use your code. But, in an open source project, documentation and code quality in general become very important. Others working on the project depend on the code I've written and need to understand what it does. The subtle but impactful extra responsibility that puts it on each contributor's shoulders is what makes open source code the best code. 
+
+
+##Day 54: March 14, 2017
+
+Nothing much today. Wrote a bash script that navigates to the root directory of a git project. It solves my super niched need to navigate through the folders in a project. Check it out [here](https://github.com/domingohui/up)!
+
+##Day 55: March 15, 2017
+
+I started learning Vue JS today. It's kinda related and comparable to ReactJS. I find Vue js more lightweight than React. And the fact that one doesn't have to use Babel or webpack to build a simple app is very attractive. I haven't had much experience with Vue js yet, but one downside is that variables (props) in HTML (and even in js when they are declared) are not strongly linked. They are written in plain old string which makes debugging a bit hard. But the dev tool comes in handy.
+
+Check out the [little app Initial Commit](https://github.com/domingohui/initial-commit) that lets you find the earliest commit of a git repo! 
