@@ -253,3 +253,8 @@ Check out the [little app Initial Commit](https://github.com/domingohui/initial-
 ## Day 56: March 21, 2017
 
 Improved [Initial Commit](https://github.com/domingohui/initial-commit) a bit. Added a clear button and separate methods into modules. Overall, I think vuejs simplifies workflow. I find it very useful for lightweight and small-scale projects. I haven't used vue for a large project. But I have a feeling that React may do a better job keeping track of components which makes debugging easier. 
+
+
+## Day 57: March 23, 2017
+
+Worked on a foobar challenge today. It was quite fun to dig into binaries and bitwise operators! It's interesting to see how things work under the hood from a CPU perspective :D
