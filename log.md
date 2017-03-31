@@ -258,3 +258,35 @@ Improved [Initial Commit](https://github.com/domingohui/initial-commit) a bit. A
 ## Day 57: March 23, 2017
 
 Worked on a foobar challenge today. It was quite fun to dig into binaries and bitwise operators! It's interesting to see how things work under the hood from a CPU perspective :D
+
+
+## Day 58~60: March 24~26, 2017
+
+Was at MSFTHacks at uWaterloo. Our initial idea of analyzing how genuine a speaker is by looking at their facial emotion and measuring speech sentiment didn't work out... Because we didn't have time to build the whole infrastructure to show the video real-time while showing analysis. On hindsight, it would probably have worked if we used only Youtube videos... 
+
+We instaed used the Microsoft Bot Framework to build a simple ice breaker game. Participants are given photos with missing parts. Then they have to find where the photo was taken to complete it. 
+
+Personally, I thought it was a pretty fun idea. But it was a bit too simple with all the Azure API available. I feel that Hackathons are all about coming up wiht brilliant ideas and then use whatever resources avaialbe (making API calls to SaaS and whatnot) instead of solving technical challenges. Which kinda makes sense since sponsors (at least those who provide free credits to their APIs) would like to see what you can do with their resources. They've already taken care of the technical part. But this maybe only applies to a fraction of hackathons out there..
+
+
+## Day 61: March 28, 2017
+
+Started doing another Foobar challenge. This one involves bitwise operations. It's pretty cool to work with binary numbers. Long ago, I heard binary was useful (at least for computers) because everything only has two outcomes. I didn't quite understand the meaning of it. I kinda do now. 
+
+The fact that outcomes are binary does increase the number of combinations of possible things that can occur. Something with 10 possible states/outcomes can be represented by just a simple description in human terms. But from a data analysis perspective, we need to have 10 indicators with only 1 that says "yes this is the state it's in". But since computers can scale (...or speed up time relative to us humans), it doesn't matter. In fact, it's even better since it leverage relative speed to break down a complex problem into something simpler - only a yes or a no. 
+
+
+## Day 62: March 29, 2017
+
+I'm learning [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) to build a simple [web scraper](https://github.com/domingohui/uw_calendar_parser) that pulls a list of course codes from academic plan requirements of my university :P
+
+The idea behind a web scraper is very simple. BS made it even simpler to parse a HTML DOM tree. The main challenge of web scraping is deciding (often dynamically) which elements to keep on a given webpage. 
+
+
+## Day 63: March 30, 2017
+
+Back to 100daysofcode. I will try to keep up the log (and twitter :P).
+
+I will keep working on the scraper and maybe write a post about my learning journey. 
+
+Also solved the Foobar challenge that deals with bitwise opeerations. The problem was very simple in a sense that using a naive brute force is totally possible to get the final result. But when you have trillions of those opertations to do, it's probably a better idea to optimize them without actually doing them. I can imagine scalability is very important at Google. Considering constraints on time and resources and building something scalable is one thing that I've learned from doing these challenges so far. 
